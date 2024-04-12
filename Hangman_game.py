@@ -1,7 +1,7 @@
 from random import choice #we need this function to choose a word from our list
 
 def choose_word():
-    #your list of words
+    #your custom list of words
     words = ["hangman", "car", "keyboard", "programming", "game", "mouse", "algorithm", "debugging"]
     return choice(words)
 
